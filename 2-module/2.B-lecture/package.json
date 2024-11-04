@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Welcome to the Playwright Automation Course! This repository is structured to help you easily navigate through each lesson. Each folder represents a specific topic or module in the course, allowing you to follow along seamlessly.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prettier": "npx prettier --write ."
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
