@@ -8,7 +8,7 @@ test('has title', async ({ page }) => {
 
 test('get started link', async ({ page }) => {
   await page.goto('httplaywrightsdsdsd/');
-
+  console.log();
   // Click the get started link.
   await page.getByRole('link', { name: 'Get asdasdw221' }).click();
 
